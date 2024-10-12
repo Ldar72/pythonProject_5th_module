@@ -12,7 +12,7 @@ class User:
         return f"<User '{self.nickname}'>"
 
     def __str__(self):
-        return f"{self.nickname}: {self.age}"
+        return f"{self.nickname}"
 
     def __eq__(self, other):
         if isinstance(other, User):
